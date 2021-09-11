@@ -45,7 +45,7 @@ class GitaddMod(loader.Module):
                "cfg_gh_repo": "Репозиторий, куда нужно загружать модули"}
 
     def __init__(self):
-        self.config = loader.ModuleConfig("GH_TOKEN", "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", lambda m: self.strings("cfg_token", m),
+        self.config = loader.ModuleConfig("GH_TOKEN", " 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 ", lambda m: self.strings("cfg_token", m),
             "GH_USERNAME", "MrBlack07", lambda m: self.strings("cfg_gh_user", m),
             "GH_REPO", "my-repo", lambda m: self.strings("cfg_gh_repo", m))
 
